@@ -4,36 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="styles.css">
-
-
     <title>Let's Flexbox!</title>
-
 </head>
 <body>
     
 
     <!--Header title and menu begin here-->
     <header>
-        <h1>Flexbox Rundown</h1>    
+        <h1>FlexBox Rundown</h1>
         <ul>
             <div class="container-navigation"> 
-                <button><a href="#anchor-flexbox">1.FlexGrow</a></button>
-                <button><a href="#anchor-centeritem">2.CenterItem</a></button>
-                <button><a href="#anchor-video">3.Video</a></button>
-                <button class="push"><a href="#anchor-audio">4.Audio</a></button>
-                <button><a href="#anchor-media">5.Media</a></button>
+                <button><a href="#flexgrow">1.Flexgrow</a></button>
+                <button><a href="#centeritem">2.CenterItem</a></button>
+                <button><a href="#video">3.Video</a></button>
+                <button class="push"><a href="#audio">4.Audio</a></button>
+                <button><a href="#media">5.Media</a></button>
                 <button><a href="button.html" target="blank">Would you like to know more?</a></button>
             </div>
-        </ul>      
+        </ul>
     </header>
     
     <!-- end of header information here -->
  
  
         <main>
-            <div class="section-one">
+            <div class="section-one" id="flexgrow">
                 <div class="flexgrow-container">
                     <div class="box1">ONE</div>
                     <div class="box2">TWO</div>
@@ -43,7 +39,7 @@
 
             </div>
 
-            <div class="section-two">
+            <div class="section-two" id="centeritem">
                 
 
                     <img src="http://placekitten.com/600/400">
@@ -53,13 +49,16 @@
 
             <!-- video goes below -->
 
-            <div class="section-three">
+            <div class="section-three" id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vodnI38cNI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SGJFWirQ3ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
             </div>
 
-            <div class="section-four">
+            <div class="section-four" id="audio">
 
                 <figure>
                     <figcaption>Cor Blimey!</figcaption>
@@ -74,7 +73,7 @@
 
             </div>
 
-            <div class ="section-five">
+            <div class ="section-five" id="media">
                 
                 <div class="media-container">
                     
@@ -98,5 +97,8 @@
         
 
         </main> 
+        <footer>
+            <p>This website is brought to you by the Letter F, B, and the number 42. It was made by YOUR NAME HERE.</p>
+        </footer>
 </body>
 </html>

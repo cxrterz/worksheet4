@@ -3,14 +3,37 @@
 
 body{
     background-color: limegreen;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Zen Dots', cursive;
 
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Zen Dots', cursive;
     font-size: 60px;
     text-align: center;
+
+}
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px, 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
 }
 /* header sytles */
 
@@ -47,7 +70,7 @@ header {
     background-color: lightgreen;
     
     height: 200px;
-    flex: 1 1 auto;
+    flex: 2 1 auto;
 }
 
 .box3 {
@@ -64,6 +87,10 @@ header {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -72,6 +99,10 @@ header {
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -86,6 +117,11 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
@@ -93,8 +129,69 @@ iframe {
 
 .section-five {
     background-color: goldenrod;
-    height: 1400px;
+    
 
 }
+.media-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
 
+.media-container .mediacontent{
+    flex: 1;
+    padding: 10px;
+}
 
+.mediacontent{
+    color: navy;
+    font-size: 20px;
+}
+
+button {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+    background-color: lightblue;
+    color: white;
+}
+button:hover {
+    background-color: pink;
+    color: white;
+    transform: scale(1.5);
+    font-size: x-large;
+    font-style: oblique;
+}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
+}
+footer {
+    background-color: rebeccapurple;
+    height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    color: white;
+    padding: 10px 0px;
+}
+.button-one-section {
+    background-color: cornflowerblue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-img {
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+}
